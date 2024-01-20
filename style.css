@@ -1,0 +1,204 @@
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 900px;
+    border: 1px solid #FFE01E;
+    background-color: #FFE01E;
+
+    img{
+        height: 50px;
+        width: 200px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #2773BA;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        border-right: 1px solid;
+        padding-right: 10px;
+        padding-left: 5px;
+        position: relative;
+        left: 460px;
+        bottom: 18px;
+    }
+}
+
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 850px;
+    width: 900px;
+    border: 1px solid #FFE01E;
+    background-image: url(bg.png);
+    background-size: cover;
+
+    h1{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: #FFE01E;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    form.selection input{
+        height: 20px;
+        width:300px;
+        margin-left: 90px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+    form select{
+        height: 25px;
+        width:308px;
+        margin-left: 90px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+    form.checkin{
+        input{
+            font-size: 12px;
+        }
+    }
+}
+
+div.trip{
+    height: 210px;
+    width: 750px;
+    border: 2px solid #FFE01E;
+    border-radius:10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    backdrop-filter: blur(5px);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+    h2{
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    form.trip input{
+        margin-left: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    form.checkin input{
+        display: inline-block;
+        height: 20px;
+        width: 200px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    form.checkin label{
+        display: inline-block;
+        margin-left: 40px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+    }
+
+    #return{
+        margin-left: 55px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+    img{
+        position: absolute;
+        left: 500px;
+        top: 20px;
+    }
+}
+
+div.personal{
+    height: 235px;
+    width: 750px;
+    border: 2px solid #FFE01E;
+    margin-top: 20px;
+    border-radius:10px;
+    margin-left: 70px;
+    backdrop-filter: blur(5px);
+
+    input.name{
+        height: 20px;
+        width:170px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+    #req{
+        height: 50px;
+        width:635px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+    input{
+        height: 20px;
+        width:286px;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border-color: #FFE01E;
+    }
+
+}
+
+div.submit{
+    margin-left: 400px;
+    margin-top: 30px;
+    input{
+        height: 30px;
+        width: 100px;
+        background-color: #FFE01E;
+        border: #FFE01E;
+        border-radius: 5px;
+    }
+}
+
+div.footer{
+    margin-left: 540px;
+    margin-top: 30px;
+    color: white;
+    
+    img{
+        height: 20px;
+        width: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    span{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

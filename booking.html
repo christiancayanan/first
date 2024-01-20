@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <title>Flight Reservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+    <body>
+        <header>
+            <img src="logo.png">
+            <a href="#">Login</a>
+            <a href="#">Sign Up</a>
+            <a href="#">About Us</a>
+        </header>
+
+        <main>
+            <h1>Booking Details:</h1>
+            <form class="selection">
+                <input type="text" placeholder="Origin">
+                <input type="text" placeholder="Destination">
+                <select>
+                    <option>Select Terminal</option>
+                    <option>NAIA TERMINAL 1</option>
+                    <option>NAIA TERMINAL 2</option>
+                    <option>NAIA TERMINAL 3</option>
+                </select>
+                <select>
+                    <option>Select Seat</option>
+                    <option>Aisle</option>
+                    <option>Middle</option>
+                    <option>Window</option>
+                </select>
+            </form>
+
+            <div class="trip">
+                <h2>Select your Trip</h2>
+                <form class="trip">
+                    <input type="radio" id="trip" name="trip">
+                    <label for="trip">Economy</label>
+                    <input type="radio" id="trip" name="trip">
+                    <label for="trip">Premium Economy</label>
+                    <input type="radio" name="trip">
+                    <label for="trip">Business</label>
+                    <input type="radio" name="trip">
+                    <label for="trip">First Class</label>
+                </form>
+                <h2>Check-In Details</h2>
+                <form class="checkin">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" name="date"><br>
+                    <label for="return">Return Date</label>
+                    <input type="date" id="return" name="date">
+                </form>
+                <img src="eagle.png">
+            </div>
+
+            <h1>Personal Details:</h1>
+
+            <div class="personal">
+                <form>
+                    <input type="text" placeholder="First Name" class="name">
+                    <input type="text" placeholder="Midle Name" class="name">
+                    <input type="text" placeholder="Surname" class="name">
+                    <input type="text" placeholder="Address Line 1">
+                    <input type="text" placeholder="Address Line 2">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Contact Number">
+
+                    <input type="text" placeholder="Special Request" id="req">
+                </form>
+            </div>
+            <div class="submit">
+                <input type="submit">
+            </div>
+
+            <div class="footer">
+                <span>Contact Us:</span>
+                <img src="fb.png">
+                <a href="#">Facebook</a>
+                <img src="ig.png">
+                <a href="#">Instagram</a>
+                <img src="gmail.png">
+                <a href="#">Gmail</a>
+            </div>
+        </main>
+
+    </body>
+</html>
